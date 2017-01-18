@@ -1,0 +1,5 @@
+#!/bin/bash
+./build
+docker build -t keyparty/nero:0.0.1 .
+docker push keyparty/nero:0.0.1
+rm nero
